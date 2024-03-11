@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- chess board -->
+
+    <form>
+        <h4>Register</h4>
+        <input type="text" placeholder="Enter your name"> <br> <br>
+        <input type="number" placeholder="phone number"> <br> <br>
+        <input type="email" placeholder="Enter your email"> <br> <br>
+        <input type="password" placeholder="*********"> <br> <br>
+        <input type="checkbox">
+        <span>Agree to terms and conditions</span> <br> <br>
+
+        <button>
+            <a href="login.html">Sign up</a>
+        </button>
+        <h1 id="dd"></h1>
+    </form>
+</body>
+</html>
+
+<script>
+    // let gotten = JSON.parse(localStorage.getItem("inpSave"));
+    let gotten = localStorage.getItem("inpSave");
+
+    console.log(gotten);
+    dd.innerHTML = gotten
+</script>
